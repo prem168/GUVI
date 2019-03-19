@@ -5,6 +5,6 @@ if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
 	if(ch in m):
 		print('Vowel')
 	else:
-		print('Constant')
+		print('Consonant')
 else:
 	print('invalid')

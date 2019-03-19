@@ -1,0 +1,11 @@
+x=int(input())
+a=list(map(int,input().split()))
+l=x
+sum=0
+while(len(a)!=0):
+    n=max(a)
+    a.remove(n)
+    sum=sum+(n*(10**l))
+    l=l-1
+sum=int(sum/10)
+print(sum)

@@ -4,7 +4,11 @@ a=int(a)
 b=int(b)
 x=list(map(int,input().split()))
 y=list(map(int,input().split()))
-for i in range(0,b):
+i=0
+while(i<b-1):
 
     x.append(y[i])
-    print(max(x))
+    print(max(x),end=" ")
+    i+=1
+x.append(y[i])
+print(max(x))

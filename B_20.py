@@ -1,5 +1,5 @@
 n=int(input())
-for i in range(1,n):
-	print(i*5,end=" ")
-print((i+1)*5)
+for i in range(1,5):
+	print(i*n,end=" ")
+print((i+1)*n)
 	
